@@ -2,7 +2,7 @@ import { BookData } from "@/types";
 
 export default async function fetchOneBook(id?:number) : Promise<BookData | null>{
     
-    const url = `http:localhost:12345/book/${id}`;
+    const url = `next-server-git-master-spike25s-projects.vercel.app/book/${id}`;
 
     try{
         const response = await fetch(url);
